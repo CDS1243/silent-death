@@ -2252,7 +2252,7 @@ animation: slideLeftRight 5s ease-in-out infinite;
         top: 0;
         overflow: auto;
         padding: 7.5rem 0.9375rem 0.9375rem 0.9375rem;
-        background: linear-gradient( 270deg, #0b2873 0, #b775de 46.25%, #0d2d7f 99.2%);
+        background: linear-gradient(270deg, #250935 0, #b775de 46.25%, #250935 99.2%);
         transition: left 0.3s;
     }
     .menu-open .menu__body {
