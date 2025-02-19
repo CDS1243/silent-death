@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Silent Death</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 0.2s ease 0s;
+        }
+
+        .loaded body {
+            opacity: 1;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+    
+<link rel="icon" type="image/png" href="img/IMG_1704.PNG" />
+
+<!-- Apple Touch Icon (for iOS devices) -->
+<link rel="apple-touch-icon" href="img/IMG_1704.PNG">
+
+<!-- For Android devices -->
+<link rel="shortcut icon" type="image/png" href="img/IMG_1704.PNG" />
+
+<!-- For Internet Explorer (Old versions) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__container-mini">
+                    <a href="index.html" class="header__logo">
+                        <img src="img/IMG_1704.PNG" alt="Logo" style="width: 60px; height: auto; max-width: 100%; border-radius: 10px;" />
+
+                    </a>
+                    
+                    <div class="header__right">
+                        <div class="header__menu menu">
+                            <button type="button" class="menu__icon icon-menu">
+                  <span></span>
+                </button>
+                            <nav class="menu__body">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="#" data-goto=".hero" class="menu__link">Home</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" data-goto-header data-goto=".what" class="menu__link">About</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a
+                        href="#"
+                        data-goto-header
+                        data-goto=".how"
+                        class="menu__link"
+                        >How to buy</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a
+                        href="#"
+                        data-goto-header
+                        data-goto=".tokenomics"
+                        class="menu__link"
+                        >Tokenomics</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__buttons" data-da=".menu__body, 991.98">
+                <!-- <a
+                  href="https://app.uniswap.org/swap?outputCurrency=0xee2a03aa6dacf51c18679c516ad5283d8e7c2637"
+                  class="header__button button">
+                  <img src="img/okx_dex_logo.svg" alt="Logo" />
+                </a> -->
+                                        <a href="https://jup.ag/swap/SOL-8KfFTRRemy6wK3fQadHNjzpX6Y3hnNYc7F4hknQvpump" class="header__button button">
+                  <span>BUY NOW</span>
+                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="page">
+            <section data-watch="navigator" class="page__hero hero">
+                <div class="hero__bg">
+                    <img src="img/hero/bg.png" alt="Background Image" />
+                </div>
+                <div class="hero__top top-hero">
+                    <div class="top-hero__container">
+                        <div class="top-hero__container-mini">
+                            <div class="top-hero__content">
+                                <div class="top-hero__lable">Say Hello To</div>
+                                <h1 class="top-hero__title"><span>Silent Death</span></h1>
+                                <div class="top-hero__text">
+                                    Silent Death is a character crafted by the dynamic imagination of Adam Wallace, known for his ability to blend humor with heart in his storytelling. She emerges from the shadows of Wallace's "Fart Club" series, a collection where humor and adventure go hand in hand. Silent Death isn't just another character; she's an embodiment of stealth, wit, and a touch of the mysterious, resonating with Wallace's unique storytelling style that captivates young readers.
+                                </div>
+                                <div class="top-hero__buttons">
+                                    <a href="https://jup.ag/swap/SOL-8KfFTRRemy6wK3fQadHNjzpX6Y3hnNYc7F4hknQvpump"><span>Buy Now</span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="33"
+                        height="33"
+                        viewBox="0 0 33 33"
+                        fill="none">
+                        <path
+                          d="M9.22876 7.21146C8.30577 7.21146 7.55668 7.96056 7.55668 8.88355V24.2667C7.55668 25.1897 8.30577 25.9388 9.22876 25.9388H24.6119C25.5349 25.9388 26.284 25.1897 26.284 24.2667V19.2505C26.284 18.8957 26.4249 18.5554 26.6758 18.3046C26.9267 18.0537 27.2669 17.9128 27.6217 17.9128C27.9764 17.9128 28.3167 18.0537 28.5675 18.3046C28.8184 18.5554 28.9593 18.8957 28.9593 19.2505V24.2667C28.9593 25.4197 28.5013 26.5255 27.686 27.3408C26.8707 28.1561 25.7649 28.6141 24.6119 28.6141H9.22876C8.07576 28.6141 6.96997 28.1561 6.15468 27.3408C5.33938 26.5255 4.88135 25.4197 4.88135 24.2667V8.88355C4.88135 7.73054 5.33938 6.62476 6.15468 5.80946C6.96997 4.99416 8.07576 4.53613 9.22876 4.53613H14.245C14.5998 4.53613 14.94 4.67707 15.1909 4.92793C15.4417 5.17879 15.5827 5.51903 15.5827 5.8738C15.5827 6.22857 15.4417 6.56881 15.1909 6.81967C14.94 7.07053 14.5998 7.21146 14.245 7.21146H9.22876ZM19.5957 7.21146C19.2409 7.21146 18.9007 7.07053 18.6498 6.81967C18.3989 6.56881 18.258 6.22857 18.258 5.8738C18.258 5.51903 18.3989 5.17879 18.6498 4.92793C18.9007 4.67707 19.2409 4.53613 19.5957 4.53613H27.6217C27.9764 4.53613 28.3167 4.67707 28.5675 4.92793C28.8184 5.17879 28.9593 5.51903 28.9593 5.8738V13.8998C28.9593 14.2546 28.8184 14.5948 28.5675 14.8457C28.3167 15.0965 27.9764 15.2375 27.6217 15.2375C27.2669 15.2375 26.9267 15.0965 26.6758 14.8457C26.4249 14.5948 26.284 14.2546 26.284 13.8998V9.10292L20.5414 14.8455C20.2891 15.0892 19.9512 15.224 19.6005 15.221C19.2498 15.2179 18.9143 15.0772 18.6662 14.8292C18.4182 14.5812 18.2775 14.2457 18.2745 13.895C18.2714 13.5442 18.4063 13.2064 18.6499 12.9541L24.3925 7.21146H19.5957Z"
+                          fill="white" />
+                      </svg>
+                    </a>
+
+                    </a>
+                                </div>
+                            </div>
+                            <div class="top-hero__image">
+                                <img src="img/IMG_1722.PNG" alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__bottom bottom-hero">
+                    <div class="bottom-hero__container">
+                        <div class="bottom-hero__container-mini">
+                            <div class="bottom-hero__items">
+                                <a target="_blank" href="https://t.me/SilentDeathOnSOL" class="bottom-hero__item">
+                    <img src="img/hero/social/01.png" alt="Icon" />
+                  </a>
+                               
+                  <a target="_blank" href="https://x.com/silentdeathsol?s=11" class="bottom-hero__item">
+                    <img src="img/hero/social/02.png" alt="Icon" />
+                  </a>
+                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section data-watch="navigator" class="page__what what">
+                <div data-watch-threshold="0.1" data-watch-once data-watch class="what__container">
+                    <div class="what__row">
+                        <div class="what__column">
+                            <div class="what__video">
+                                <img src="img/photo_2025-02-18_19-08-18.jpg" alt="Image" />
+                            </div>
+                        </div>
+                        <div class="what__content" data-da=".what__column, 991.98, 1">
+                            <i></i>
+                            <div class="what__body">
+                                <h2 class="what__title">
+                                    <span>A Story for Wallace</span>
+                                    <i></i>
+                                </h2>
+                                <div class="what__text">
+                                    <p>
+                                        Here's where we turn the tables and tell Adam Wallace a story. We imagine a digital narrative where Silent Death navigates through a blockchain filled with farts, using her stealth to uncover hidden truths or thwart digital villains. Perhaps she teams up with FartBoy for a mission that requires both humor and cunning, or maybe she must silence the Buminator to save the day. This is our way of paying homage to Wallace's creative genius, by extending his universe into a space where everyone can be part of the storytelling process.
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section data-watch="navigator" class="page__tokenomics tokenomics">
+                <div data-watch-threshold="0.8" data-watch-once data-watch class="tokenomics__title title-tokenomics">
+                    <div class="title-tokenomics__container-mini">
+                        <span>Tokenomics!</span>
+                    </div>
+                </div>
+                <div class="tokenomics__container">
+                    <div class="tokenomics__container-mini">
+                        <div data-watch-threshold="0.3" data-watch-once data-watch class="tokenomics__items">
+                            <div class="tokenomics__item item-tokenomics">
+                                <div class="item-tokenomics__body">
+                                    <div class="item-tokenomics__decor">
+                                        <span></span>
+                                    </div>
+                                    <div class="item-tokenomics__title">
+                                        Token <br /> Information
+                                    </div>
+                                    <div class="item-tokenomics__items">
+                                        <div class="item-tokenomics__item active">
+                                            <div class="item-tokenomics__item-name">Token Name</div>
+                                            <div class="item-tokenomics__item-value">Silent Death 
+                                            </div>
+                                        </div>
+                                        <div class="item-tokenomics__item">
+                                            <div class="item-tokenomics__item-name">Network</div>
+                                            <div class="item-tokenomics__item-value">Solana</div>
+                                        </div>
+                                        <div class="item-tokenomics__item">
+                                            <div class="item-tokenomics__item-name">No Tax</div>
+                                            <div class="item-tokenomics__item-value">0/0</div>
+                                        </div>
+                                        <div class="item-tokenomics__item">
+                                         <P>CA</P>
+                                            <div style="font-size: 10px;" class="item-tokenomics__item-value">8KfFTRRemy6wK3fQadHNjzpX6Y3hnNYc7F4hknQvpump</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                     <section data-watch="navigator" class="page__what what">
+                <div data-watch-threshold="0.1" data-watch-once data-watch class="what__container">
+                    <div class="what__row">
+                       
+                        <div class="what__content" data-da=".what__column, 991.98, 1">
+                            <i></i>
+                            <div class="what__body">
+                                <h2 class="what__title">
+                                    <span>Merging Worlds</span>
+                                    <i></i>
+                                </h2>
+                                <div class="what__text">
+                                    <p>
+                                        While $FartBoy and $Buminator thrive on humor and chaos, Silent Death brings a narrative of intrigue and suspense. By integrating these characters into a shared universe, we paint a picture where each character complements the others, creating a rich tapestry of stories where laughter meets mystery.
+                                    </p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>         
+                           
+            </section>
+          
+            <section class="page__social social">
+    <div class="video-wrapper">
+        <video autoplay muted loop class="background-video">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="social__title title-social" data-watch-threshold="0.8" data-watch-once data-watch>
+        <div class="title-social__container-mini">
+            <span>Join Us</span>
+        </div>
+    </div>
+    <div class="social__container">
+        <div class="social__container-mini">
+            <div class="social__text">
+                JOIN US <br /> NOW
+            </div>
+            <!-- Add your image here -->
+            <img id="vibrateImg" 
+            src="img/photo_2025-02-18_19-08-20 (2).jpg" 
+            alt="Join Us" 
+            class="social__image vibrate rounded-image" />
+       
+       <style>
+         .rounded-image {
+           width: 200px;
+           height: 200px;
+           border-radius: 20px; /* Adjust for rounded corners */
+           object-fit: cover; /* Ensures it fits within dimensions */
+         }
+       </style>
+       
+    <button onclick="stopVibration()"></button>
+
+            <a href="https://t.me/SilentDeathOnSOL" class="social__button button button--big">
+                <span>Join Now</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+                    <path d="M9.22876 7.21146C8.30577 7.21146 7.55668 7.96056 7.55668 8.88355V24.2667C7.55668 25.1897 8.30577 25.9388 9.22876 25.9388H24.6119C25.5349 25.9388 26.284 25.1897 26.284 24.2667V19.2505C26.284 18.8957 26.4249 18.5554 26.6758 18.3046C26.9267 18.0537 27.2669 17.9128 27.6217 17.9128C27.9764 17.9128 28.3167 18.0537 28.5675 18.3046C28.8184 18.5554 28.9593 18.8957 28.9593 19.2505V24.2667C28.9593 25.4197 28.5013 26.5255 27.686 27.3408C26.8707 28.1561 25.7649 28.6141 24.6119 28.6141H9.22876C8.07576 28.6141 6.96997 28.1561 6.15468 27.3408C5.33938 26.5255 4.88135 25.4197 4.88135 24.2667V8.88355C4.88135 7.73054 5.33938 6.62476 6.15468 5.80946C6.96997 4.99416 8.07576 4.53613 9.22876 4.53613H14.245C14.5998 4.53613 14.94 4.67707 15.1909 4.92793C15.4417 5.17879 15.5827 5.51903 15.5827 5.8738C15.5827 6.22857 15.4417 6.56881 15.1909 6.81967C14.94 7.07053 14.5998 7.21146 14.245 7.21146H9.22876ZM19.5957 7.21146C19.2409 7.21146 18.9007 7.07053 18.6498 6.81967C18.3989 6.56881 18.258 6.22857 18.258 5.8738C18.258 5.51903 18.3989 5.17879 18.6498 4.92793C18.9007 4.67707 19.2409 4.53613 19.5957 4.53613H27.6217C27.9764 4.53613 28.3167 4.67707 28.5675 4.92793C28.8184 5.17879 28.9593 5.51903 28.9593 5.8738V13.8998C28.9593 14.2546 28.8184 14.5948 28.5675 14.8457C28.3167 15.0965 27.9764 15.2375 27.6217 15.2375C27.2669 15.2375 26.9267 15.0965 26.6758 14.8457C26.4249 14.5948 26.284 14.2546 26.284 13.8998V9.10292L20.5414 14.8455C20.2891 15.0892 19.9512 15.224 19.6005 15.221C19.2498 15.2179 18.9143 15.0772 18.6662 14.8292C18.4182 14.5812 18.2775 14.2457 18.2745 13.895C18.2714 13.5442 18.4063 13.2064 18.6499 12.9541L24.3925 7.21146H19.5957Z" fill="white" />
+                </svg>
+            </a>
+        </div>
+        <script>function stopVibration() {
+            document.getElementById('vibrateImg').classList.remove('vibrate-repeat');
+        }
+        </script>
+           </div>
+        
+           
+        </div>
+        <section data-watch="navigator" class="page__how how">
+            <div data-watch-threshold="0.8" data-watch-once data-watch class="how__title title-how">
+                <div class="title-how__container-mini">
+                    <span>How to Buy?</span>
+                </div>
+            </div>
+            <a href="https://jup.ag/swap/SOL-8KfFTRRemy6wK3fQadHNjzpX6Y3hnNYc7F4hknQvpump" class="social__button button button--big">
+                <span>Buy Now</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+                    <path d="M9.22876 7.21146C8.30577 7.21146 7.55668 7.96056 7.55668 8.88355V24.2667C7.55668 25.1897 8.30577 25.9388 9.22876 25.9388H24.6119C25.5349 25.9388 26.284 25.1897 26.284 24.2667V19.2505C26.284 18.8957 26.4249 18.5554 26.6758 18.3046C26.9267 18.0537 27.2669 17.9128 27.6217 17.9128C27.9764 17.9128 28.3167 18.0537 28.5675 18.3046C28.8184 18.5554 28.9593 18.8957 28.9593 19.2505V24.2667C28.9593 25.4197 28.5013 26.5255 27.686 27.3408C26.8707 28.1561 25.7649 28.6141 24.6119 28.6141H9.22876C8.07576 28.6141 6.96997 28.1561 6.15468 27.3408C5.33938 26.5255 4.88135 25.4197 4.88135 24.2667V8.88355C4.88135 7.73054 5.33938 6.62476 6.15468 5.80946C6.96997 4.99416 8.07576 4.53613 9.22876 4.53613H14.245C14.5998 4.53613 14.94 4.67707 15.1909 4.92793C15.4417 5.17879 15.5827 5.51903 15.5827 5.8738C15.5827 6.22857 15.4417 6.56881 15.1909 6.81967C14.94 7.07053 14.5998 7.21146 14.245 7.21146H9.22876ZM19.5957 7.21146C19.2409 7.21146 18.9007 7.07053 18.6498 6.81967C18.3989 6.56881 18.258 6.22857 18.258 5.8738C18.258 5.51903 18.3989 5.17879 18.6498 4.92793C18.9007 4.67707 19.2409 4.53613 19.5957 4.53613H27.6217C27.9764 4.53613 28.3167 4.67707 28.5675 4.92793C28.8184 5.17879 28.9593 5.51903 28.9593 5.8738V13.8998C28.9593 14.2546 28.8184 14.5948 28.5675 14.8457C28.3167 15.0965 27.9764 15.2375 27.6217 15.2375C27.2669 15.2375 26.9267 15.0965 26.6758 14.8457C26.4249 14.5948 26.284 14.2546 26.284 13.8998V9.10292L20.5414 14.8455C20.2891 15.0892 19.9512 15.224 19.6005 15.221C19.2498 15.2179 18.9143 15.0772 18.6662 14.8292C18.4182 14.5812 18.2775 14.2457 18.2745 13.895C18.2714 13.5442 18.4063 13.2064 18.6499 12.9541L24.3925 7.21146H19.5957Z" fill="white"/>
+                </svg>
+            </a>
+           
+        </section>
+        <section data-watch="navigator" class="page__what what">
+            <div data-watch-threshold="0.1" data-watch-once data-watch class="what__container">
+                <div class="what__row">
+                   
+                    <div class="what__content" data-da=".what__column, 991.98, 1">
+                        <i></i>
+                        <div class="what__body">
+                            <h2 class="what__title">
+                                <span>Community Interaction</span>
+                                <i></i>
+                            </h2>
+                            <div class="what__text">
+                                <p>
+                                    We envision a platform where fans can contribute to Silent Death's story arcs, perhaps voting on the next plot twist or solving puzzles that unlock new narrative elements. This would not only keep the spirit of Wallace's storytelling alive but also introduce it to a new generation through the lens of blockchain technology.
+                                </p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <section data-watch="navigator" class="page__what what">
+                <div data-watch-threshold="0.1" data-watch-once data-watch class="what__container">
+                    <div class="what__row">
+                       
+                        <div class="what__content" data-da=".what__column, 991.98, 1">
+                            <i></i>
+                            <div class="what__body">
+                                <h2 class="what__title">
+                                    <span>Narrative Expansion</span>
+                                    <i></i>
+                                </h2>
+                                <div class="what__text">
+                                    <p>
+                                        Just as Wallace uses his stories to communicate and entertain children, we see $SD as an extension of this ethos. By tokenizing Silent Death, we aim to create an interactive narrative where fans can engage with her adventures, perhaps through collectible NFTs that represent key moments or artifacts from her tales.
+                                    </p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- New Image Section with Spacing -->
+        <div style="text-align: center; margin: 0px 0;">
+            <img src="img/photo_2025-02-19_02-33-23.jpg" alt="Centered Image" class="moving-image" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="top-hero__text" style="margin-top: 50px; text-align: center; max-width: 80%; margin-left: auto; margin-right: auto;">
+            Silent Death, as conceived by Adam Wallace and brought to life in our blockchain vision, stands as a testament to how stories can evolve, adapt, and inspire across different mediums. By introducing $SD into the mix with $FartBoy and $Buminator, we not only expand the narrative universe but also offer fans a chance to interact with these characters in novel, digital ways. It's our tribute to Wallace, turning the act of storytelling into an interactive, community-driven experience.
+        </div>
+        
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__container-mini">
+                    <div class="footer__content">
+                        <div class="footer__top">
+                            <div class="footer__top-top">
+                            </div>
+                            <div class="footer__top-social">
+                                <a target="_blank" href="https://t.me/SilentDeathOnSOL" class="footer__top-social-item">
+                                    <img src="img/footer/02.png" alt="Logo" />
+                                </a>
+                                <a target="_blank" href="https://x.com/silentdeathsol?s=11" class="footer__top-social-item">
+                                    <img src="img/footer/01.png" alt="Logo" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div>© 2025 Silent Death  • All Rights Reserved</div>
+                        <a target="_blank" href="index.html"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="js/app.min.js?_v=20240729230854"></script>
+</body>
+
+</html>
